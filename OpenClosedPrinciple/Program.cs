@@ -12,7 +12,5 @@ var pf = new ProductFilter();
 Console.WriteLine("Green products:");
 
 var bf = new BetterFilter();
-foreach (var p in bf.Filter(products, new AndSpecification<Product>(
-             new ColorSpecification(Color.Green),
-             new SizeSpecification(Size.Large))))
+foreach (var p in bf.Filter(products, new ColorSpecification(Color.Green)& new SizeSpecification(Size.Large)))
     Console.WriteLine($" - {p.Name} is green");
