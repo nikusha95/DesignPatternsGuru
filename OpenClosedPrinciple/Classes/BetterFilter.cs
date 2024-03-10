@@ -4,7 +4,7 @@ namespace OpenClosedPrinciple.Classes;
 
 public class BetterFilter : IFilter<Product>
 {
-    public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
+    public IEnumerable<Product> Filter(IEnumerable<Product> items, Specification<Product> spec)
     {
         foreach (var i in items)
         {

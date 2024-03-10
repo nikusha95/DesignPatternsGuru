@@ -10,5 +10,9 @@ var house = new Product("House", Color.Blue, Size.Large);
 Product[] products = { apple, tree, house };
 var pf = new ProductFilter();
 Console.WriteLine("Green products:");
-foreach (var p in pf.FilterByColor(products, Color.Green))
+
+var bf = new BetterFilter();
+foreach (var p in bf.Filter(products, new AndSpecification<Product>(
+             new ColorSpecification(Color.Green),
+             new SizeSpecification(Size.Large))))
     Console.WriteLine($" - {p.Name} is green");

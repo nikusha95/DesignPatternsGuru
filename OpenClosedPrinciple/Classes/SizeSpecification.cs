@@ -3,10 +3,14 @@ using OpenClosedPrinciple.Interfaces;
 
 namespace OpenClosedPrinciple.Classes;
 
-public class ColorSpecification(Color color) : Specification<Product>
+public class SizeSpecification(Size size):Specification<Product>
 {
     public override bool IsSatisfied(Product item)
     {
-        return color == item.Color;
+        if (item.Size == size)
+        {
+            return true;
+        }
+        return false;
     }
 }
