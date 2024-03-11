@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "Open
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{BE712BEC-EE22-4FF0-AF02-ADEFD851E00F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{89BDDFB8-B6A9-4FB2-8ADD-56EDB0E1C366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BE712BEC-EE22-4FF0-AF02-ADEFD851E00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE712BEC-EE22-4FF0-AF02-ADEFD851E00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE712BEC-EE22-4FF0-AF02-ADEFD851E00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BDDFB8-B6A9-4FB2-8ADD-56EDB0E1C366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BDDFB8-B6A9-4FB2-8ADD-56EDB0E1C366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BDDFB8-B6A9-4FB2-8ADD-56EDB0E1C366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BDDFB8-B6A9-4FB2-8ADD-56EDB0E1C366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
